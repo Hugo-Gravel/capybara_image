@@ -23,7 +23,7 @@ video {
 div{
   border: solid lightgreen 3px
 }
-title{
- fonte-size: 30px
+.title{
+ font-size: 30px;
   
 }
