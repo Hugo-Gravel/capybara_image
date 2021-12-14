@@ -1,12 +1,6 @@
 
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+
 
 body {
   margin: 1rem;
@@ -26,4 +20,74 @@ div{
 .title{
  font-size: 30px;
   
+}
+.buble{
+  text-align: center;
+  width: 50%;
+  background:#EEDE7A;
+  margin-left: 25%;
+    font-size: 200%;
+  color:#80571A  ;
+}
+.menucolor{
+  background-color: lightgray;
+  border: solid 2px darkgray;
+}
+ 
+
+     .menu  li {
+       
+			
+			cursor: pointer;
+			list-style: none;
+			position: relative;
+			font-family: Arial;
+       font-size: 20px;
+			width: 60px;
+			height: 20px;
+			color: gray;
+			padding: 5px;
+			margin-top: 10px;
+		
+			 
+  
+
+		}
+.onglet{
+    background-color:lightgray;
+    border: solid 2px darkgray;
+    color: white;
+    
+    padding: 5px;
+	
+    margin-top: 5px;
+    width: 170px;
+   font-size: 20px;
+ 
+}
+ ul.sous_menu {
+       display: none;
+        }
+  li:hover>ul.sous_menu {
+            display:inline-block;
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            width: 120px;
+
+        }
+.back{
+  background-color:white;
+  border: solid #DEDB8E 4px;
+}
+.bigger{
+  font-size:30px;
+  
+}
+.align{
+ text-align: center;
+}
+.padder{
+  margin-top:1%;
+  margin-bottom:1%;
 }
